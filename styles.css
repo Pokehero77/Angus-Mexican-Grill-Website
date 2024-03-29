@@ -136,3 +136,44 @@ nav{
 .order-online-button:hover {
     background-color: #e68300; /* Darker shade of orange on hover */
 }
+
+/* Media Queries for Tablets */
+@media only screen and (max-width: 1024px) {
+    /* Adjust styles for tablets */
+    .logo-container img {
+        width: 200px; /* Decrease logo size for tablets */
+    }
+}
+
+/* Media Queries for Smartphones */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smartphones */
+    header {
+        padding: 10px; /* Reduce header padding for smartphones */
+    }
+
+    .logo-container img {
+        width: 150px; /* Decrease logo size for smartphones */
+    }
+
+    nav {
+        font-size: 16px; /* Decrease font size for navigation links */
+    }
+
+    .background-image {
+        height: 200px; /* Decrease background image height for smartphones */
+    }
+
+    .menu-item img {
+        width: 120px; /* Decrease menu item image size for smartphones */
+        height: 80px;
+    }
+
+    .about-photo {
+        max-width: 100%; /* Make about photos responsive */
+    }
+
+    .contact-item {
+        flex-basis: 100%; /* Make contact items full-width on smartphones */
+    }
+}
