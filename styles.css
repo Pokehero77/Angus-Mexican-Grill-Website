@@ -62,7 +62,7 @@ nav{
 }
 
 .menu-item:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Styles for About Us Section */
@@ -111,4 +111,29 @@ nav{
 
 .contact-item h3 {
     margin-bottom: 10px;
+}
+
+/* Styles for Order Online Section */
+#order-online {
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 20px;
+}
+
+.order-online-container {
+    text-align: center;
+}
+
+.order-online-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Orange background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.order-online-button:hover {
+    background-color: #e68300; /* Darker shade of orange on hover */
 }
