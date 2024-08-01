@@ -56,8 +56,8 @@ nav{
 }
 
 .menu-item img {
-    width: 150px; /* Set the desired width */
-    height: 100px; /* Set the desired height */
+    width: 250px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
     object-fit: cover; /* Adjust how the image is resized to cover its container */
 }
 
