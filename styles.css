@@ -3,6 +3,10 @@
     color:white;
 }
 
+p {
+    font-size:14px;
+}
+
 header {
     position: relative;
     text-align: center;
